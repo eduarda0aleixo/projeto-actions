@@ -1,4 +1,7 @@
 {
   "root": true,
-  "extends": ["react-app", "react-app/jest"]
+  "extends": ["react-app"],
+  "env": {
+    "jest": true
+  }
 }
